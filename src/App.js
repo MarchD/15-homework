@@ -12,15 +12,22 @@ const authors = [{
         nickname: '@elonmusk',
         content: '🇩🇪🖤Giga Berlin Mannschaft🖤🇩🇪 Vielen Dank für Ihre hervorragende Arbeit an Giga Berlin!!',
         image: POST_IMAGE_1,
-        date: '4 sep'
+        date: '4 sep',
+        comments: '1,6k',
+        reposts: '3,8k',
+        likes: '60,1k'
+
     },
     {
         name: 'Elon Mask',
         photo: ELON_IMAGE,
         nickname: '@elonmusk',
-        content: '',
+        content: ' ',
         image: POST_IMAGE_2,
-        date: '4 sep'
+        date: '13 aug',
+        comments: '1k',
+        reposts: '2,4k',
+        likes: '30.8k'
     }
 ]
 

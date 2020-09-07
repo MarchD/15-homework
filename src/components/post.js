@@ -21,7 +21,7 @@ const Post = (props) => {
                             <img className="post__check-logo" src={CHECK} alt=""/>
                         </div>
                         <div className="post__nick">@elonmusk</div>
-                        <div className="post__date">4 sep</div>
+                        <div className="post__date">{props.date}</div>
                     </div>
                 </div>
 
@@ -31,8 +31,7 @@ const Post = (props) => {
             </div>
 
             <div className="content">
-                <div className="content__text">🇩🇪🖤Giga Berlin Mannschaft🖤🇩🇪
-                    Vielen Dank für Ihre hervorragende Arbeit an Giga Berlin!!
+                <div className="content__text">{props.content}
                 </div>
                 <div className="content__img">
                     <img src={props.image} alt="" className="post__img"/>
@@ -42,15 +41,15 @@ const Post = (props) => {
             <div className="post__feedback">
                 <div className="feedback">
                     <img src={CHAT} alt="" className="feedback__img"/>
-                        <span>1,6k</span>
+                        <span>{props.comments}</span>
                 </div>
                 <div className="feedback">
                     <img src={ARROW_C} alt="" className="feedback__img"/>
-                        <span>3,8k</span>
+                        <span>{props.reposts}</span>
                 </div>
                 <div className="feedback">
                     <img src={HEART} alt="" className="feedback__img"/>
-                        <span>60.1k</span>
+                        <span>{props.likes}</span>
                 </div>
                 <div className="feedback">
                     <img src={DOWN} alt="" className="feedback__img"/>
